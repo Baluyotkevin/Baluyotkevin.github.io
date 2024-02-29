@@ -1,226 +1,152 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
-		<title>Kevin Baluyot</title>
 		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+		<link rel="stylesheet" href="stylesheet.css">
+		<title>Kevin Baluyot</title>
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	</head>
-	<body class="landing is-preload">
-		<div id="page-wrapper">
+	<body>
+		<header class="header">
+			<a href="#" class="logo">Portfolio</a>
 
-				<header id="header" class="alt">
-					<h1><a href="index.html">Kevin Baluyot</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="https://www.linkedin.com/in/kevin-baluyot-2102b5bb/" class="button">LinkedIn</a></li>
-						</ul>
-					</nav>
-				</header>
+			<i class='bx bx-menu' id="menu-icon"></i>
 
-				<section id="banner">
-					<h2>
-						Hello!
-					</h2>
-					<h3>
-					My name is Kevin, </br> a Software Engineer
-					</h3>
-					<h3>I aspire to utilize my software skills </br> to connect with people and hopefully 
-					</br> make a positive impact on peoples lives</h3>
-					<ul class="actions special">
-					</ul>
-				</section>
+			<nav class="navbar">
+				<a href="#home"  class="active">Home</a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</header>
+		<section class="home" id="home">
+			<div class="home-content">
+				<h3>Hello, it is I</h3>
+				<h1>Kevin Baluyot</h1>
+				<h3>And I'm a <span class="multiple-text"></span></h3>
+				<p>I aspire to utilize my software skills to connect with people and hopefully </br> make a positive impact on peoples lives</h3></p>
+				<a target="_blank" href="https://docs.google.com/document/d/1iX578PepNj_b1oH-8zMExu_tWfaNxGmizChqz6yx1Gw/edit?usp=sharing" class="btn" id="res-btn">View Resume/CV</a>
+			</div>
 
-				<section id="main" class="container">
+			<div class="home-img">
+				<img src="images/headshot1.png" alt="headshot">
+			</div>
+		</section>
 
-					<section class="box special">
-						<header class="major">
-							<h2>About me</h2>
-							<div class ='selfie'><img src="images/selfie.png"/></div>
-						</header>
-						<p>Move forward, work hard, be kind, and always let love guide you.</p>
-						<div>
-							<p class="aboutMeBio">I am a former professional dancer who found a new passion in Software development with aspirations to hopefully become part of a team or company that can impact peoples lives in a positive way. I graduated App Academy in July 2023 which allowed me to strengthen my engineering skills in different technologies and computer languages. I have a passion for dance, fitness, learning, and being able to creatively express. On my free time I love to read to get a better understanding of myself and others. It provides me guidance for personal growth and self-improvement.</p>
-						</div>
-					</section>
+		<section class="about" id="about">
+			<div class="about-img">
+				<img src="images/selfie.png" alt="">
+			</div>
 
-					<section class="box special features">
-						<h2>Featured Projects</h2>
-						<div class="features-row">
-							<section>
-								<a target='_blank' href="https://mlscapstone.onrender.com/"><span class="icon solid major fa-heart accent2"></span></a>
-								<h3>MLS (My Love Story)</h3>
-								<p>A website application that allows users to express love in any form as well as connecting with other users</p>
-							</section>
-							<section>
-								<a target='_blank' href="https://event-app-bay-kappa.vercel.app/">
-									<span class="icon solid major fa-users accent4"></span>
-								</a>
-									<h3>EventMeet</h3>
-									<p>An event meetup application where users can create events and purchase tickets to go to events.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<a target='_blank' href="https://taskpanda-0di2.onrender.com/">
-									<span class="icon solid major fa-list accent4"></span>
-								</a>
-								<h3>taskPanda</h3>
-								<p>A full-stack application that allows users to book taskers in order for their tasks to be completed.</p>
-							</section>
-							<section>
-								<a target='_blank' href="https://airbnb-project-tcr5.onrender.com/">
-									<span class="icon solid major fa-home accent3"></span>
-								</a>
-								<h3>RelaxationBnb</h3>
-								<p>An application that replicates Airbnb. Allows logged in users to post their own listing/spot to be booked.</p>
-							</section>
-						</div>
-						
-					</section>
+			<div class="about-content">
+				<h2 class="heading">About <span>Me</span></h2>
+					<h3>Full Stack Developer</h3>
+					<p>After a career in professional dance, I've transitioned to a new passion, software development. My goal is to join a team or company dedicated to making a positive impact on people's lives. Completing App Academy has bolstered my engineering skills across various technologies and programming languages. Alongside my love for dance and fitness, I thrive on continuous learning and creative expression. During my leisure hours, you'll often find me immersed in books, gaining insights into myself and others, fostering personal growth and self-improvement.</p>
+			</div>
+		</section>
 
-					<div class="inner">
+		<section class="skills" id="skills">
+			<h2 class="heading">My <span>Skills</span></h2>
 
-						<header class="major">
-							<h2>Skills<br>
-							</h2>
-						</header>
-						<ul class="icons major">
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-python-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-react-original-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-redux-original colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-javascript-plain colored javascript"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-socketio-original"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">						
-									<i class="dev-i devicon-tailwindcss-original colored"></i>
-								</span>
-							</li>
-
-						</ul>
-
-						<ul class="icons major">
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-express-original-wordmark"></i>
-								</span>
-							</li> 
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-postgresql-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-html5-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-sqlalchemy-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-mongodb-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-sqlite-plain colored"></i>
-								</span>
-							</li>
-						</ul>
-
-						<ul class="icons major">
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-nodejs-plain-wordmark colored" alt="Node.js"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-git-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-amazonwebservices-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-css3-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-flask-plain-wordmark colored"></i>
-								</span>
-							</li>
-							<li>
-								<span class="icon major">
-									<i class="dev-i devicon-typescript-plain colored"></i>
-								</span>
-							</li>
-						</ul>
-
-					
-						</div>
+			<div class="skills-container">
+				<div class="skills-box">
+					<h3>Technologies</h3>
+					<div class="tech">
+						<i class="devicon-react-original-wordmark"></i>
+						<i class="devicon-nextjs-plain"></i>
+            			<i class="devicon-flask-original-wordmark"></i>
+						<i class="devicon-dotnetcore-plain"></i>
+						<i class="devicon-nodejs-plain-wordmark"></i>
+						<i class="devicon-express-original-wordmark"></i>
+						<i class="devicon-sqlite-plain-wordmark"></i>
+						<i class="devicon-postgresql-plain-wordmark"></i>
+						<i class="devicon-sqlalchemy-plain-wordmark"></i>
+						<i class="devicon-amazonwebservices-plain-wordmark"></i>
+						<i class="devicon-docker-plain-wordmark"></i>
+						<i class="devicon-mongodb-plain-wordmark"></i>
+						<i class="devicon-tailwindcss-plain-wordmark"></i>
+						<i class="devicon-socketio-original-wordmark"></i>
+						<i class="devicon-sequelize-plain-wordmark"></i>
+						<i class="devicon-redux-original"></i>
 					</div>
+				</div>
 
-				</section>
+				<div class="skills-box">
+					<h3>Languages</h3>
+					<div class="tech">
+						<i class="devicon-python-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>     
+						<i class="devicon-typescript-plain"></i>
+						<i class="devicon-csharp-plain"></i>
+						<i class="devicon-css3-plain-wordmark"></i>
+						<i class="devicon-html5-plain-wordmark"></i>
+					</div>
+				</div>
+		</section>
 
-				<section id="cta">
+		<section class="portfolio" id="portfolio">
+			<h2 class="heading">Latest <span>Projects</span></h2>
 
-					<h2>Contact</h2>
-					<p><i class="fas fa-envelope"></i>kevincbaluyot33@gmail.com</p>
-					<a target="_blank" href="https://www.linkedin.com/in/kevin-baluyot-2102b5bb/" id='linkedin' class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+			<div class="portfolio-container">
+				<div class="portfolio-box">
+					<img src="images/eventmeet.png" alt="eventmeet" />
+					<div class="portfolio-layer">
+						<h4>EventMeet</h4>
+						<p>
+						An application where users can create events and purchase tickets to go to events.
+						</p>
+						<a target="_blank" href="https://event-app-bay-kappa.vercel.app/"><i class='bx bx-group portI' ></i></a>
+					</div>
+				</div>
 
-				</section>
+				<div class="portfolio-box">
+					<img src="images/taskPanda.jpeg" alt="" />
+					<div class="portfolio-layer">
+						<h4>taskPanda</h4>
+						<p>An application that allows users to book taskers in order for their tasks to be completed.</p>
+						<a target="_blank" href="https://taskpanda-0di2.onrender.com/"><i class='bx bx-task portI'></i></a>
+					</div>
+				</div>
 
-				<footer id="footer">
-					<ul class="icons">
-						<li><a target='_blank' href="https://www.instagram.com/kebuhbuh/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a target='_blank' href="https://github.com/Baluyotkevin" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a target='_blank' href="/images/KevinBaluyotResumee.pdf" class="fa fa-file icon"></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+				<div class="portfolio-box">
+					<img src="images/MLS.png" alt="" />
+					<div class="portfolio-layer">
+						<h4>MLS</h4>
+						<p>A platform application that allows users to post love in any writing form.</p>
+						<a target="_blank" href="https://mlscapstone.onrender.com/"><i class='bx bx-heart portI'></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		</div>
+		<section class="contact" id="contact">
+			<h2 class="heading">Contact <span>Me!</span></h2>
+			<div class="social-media">
+					<a target="_blank" href="https://www.linkedin.com/in/kevin-baluyot-2102b5bb/"><i class="bx bxl-linkedin"></i></a>
+					<a target="_blank" href="https://www.instagram.com/kebuhbuh"><i class="bx bxl-instagram-alt"></i></a>
+					<a href="mailto:kevincbaluyot33@gmail.com"><i class='bx bxl-gmail'></i></a>
+					<a target="_blank" href="https://github.com/Baluyotkevin"><i class='bx bxl-github' ></i></a>
+			</div>
+		</section>
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<footer class="footer">
+			<div class="footer-text">
+				<p>Copyright &copy; 2024 by Kevin Baluyot | All Rights Reserved.</p>
+			</div>
 
+			<div class="footer-iconTop">
+				<a href="#home" id=""><i class="bx bx-up-arrow-alt"></i></a>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+		<script src="script.js"></script>
 	</body>
 </html>
