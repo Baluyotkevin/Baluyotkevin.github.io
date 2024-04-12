@@ -130,8 +130,10 @@ span {
 }
 
 .social-media {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
 }
 
 .social-media a {
